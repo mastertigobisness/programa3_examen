@@ -1,0 +1,29 @@
+Rebuilding whole project...
+--------
+- Project Filename: C:\Users\DELL\Pictures\FutbolyBaseball
+- Compiler Name: TDM-GCC 4.9.2 64-bit Release
+
+Building makefile...
+--------
+- Filename: C:\Users\DELL\Pictures\Makefile.win
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Dev-Cpp\MinGW64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\Users\DELL\Pictures\Makefile.win" clean all
+
+rm.exe -f ../Music/programa3.o FutbolyBaseball.exe
+
+rm.exe: FutbolyBaseball.exe: Permission denied
+
+C:\Users\DELL\Pictures\Makefile.win:22: recipe for target 'clean' failed
+mingw32-make.exe: *** [clean] Error 1
+
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 0
+- Output Filename: C:\Users\DELL\Pictures\FutbolyBaseball.exe
+- Output Size: 1.83309745788574 MiB
+- Compilation Time: 0.53s
