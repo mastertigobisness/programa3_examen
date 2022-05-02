@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main()
+{	
+int eleccion;	
+char ball;
+char Gu;
+char Vat;
+char mpla;
+do	
+{		
+cout<<"seleccione numero del deporte: " <<endl;
+cout<<"[1]Futbol"<<endl;	
+cout<<"¨[2]Baseball"<<endl;
+cin>>eleccion;	
+switch(eleccion)		
+{				
+case 1:			
+cout<<"usted selecciono el futbol entonces..."<<endl;
+cout<<"......................................"<<endl;			
+cout<<"los 2 elementos deportivos apropiados son: Guantes,Balon\n";			
+break;			
+case 2:			
+cout<<"usted selecciono el baseball entonces.."<<endl;	
+cout<<"......................................"<<endl;	
+cout<<"los 2 elementos deportivos apropiados son:Bate, Manopla\n";			
+break;
+}	
+}
+while(eleccion!= 0);	
+cout<<"fin"<<endl;
+return 0;
+}
